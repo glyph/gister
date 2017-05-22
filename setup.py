@@ -32,6 +32,7 @@ setup(
     description='gist making script',
     long_description=open('README.rst').read(),
     install_requires=install_requires,
+    extras_require=dict(keyring='keyring'),
     classifiers=['Development Status :: 5 - Production/Stable',
                  'License :: OSI Approved :: Apache Software License'],
     keywords=['github', 'gist', 'gists'],
